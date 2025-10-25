@@ -1,0 +1,22 @@
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual env
+.venv/
+venv/
+ai/
+
+# Streamlit / IDE
+.streamlit/
+.vscode/
+.idea/
+
+# Artefatos
+downloads_*/
+*.csv
+*.xlsx
+*.db
+EOF
